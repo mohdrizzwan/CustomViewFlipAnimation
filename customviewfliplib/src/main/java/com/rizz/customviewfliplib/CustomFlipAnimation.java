@@ -13,8 +13,6 @@ public class CustomFlipAnimation extends Animation {
     private Camera camera;
 
     private View fromView;
-    private ArrayList<View> viewArr;
-    private View toView;
 
     private float centerX;
     private float centerY;
@@ -23,6 +21,7 @@ public class CustomFlipAnimation extends Animation {
 
     /**
      * Creates a 3D flip animation.
+     *  @param fromView  view in the transition.
      *
      */
     public CustomFlipAnimation(View fromView) {

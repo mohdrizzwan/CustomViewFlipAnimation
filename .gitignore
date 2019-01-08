@@ -9,3 +9,5 @@
 /build
 /captures
 .externalNativeBuild
+bintray.user=mohdrizzwan
+bintray.apikey=545ed944dc30dab359536200af8f18f01ab2c001
