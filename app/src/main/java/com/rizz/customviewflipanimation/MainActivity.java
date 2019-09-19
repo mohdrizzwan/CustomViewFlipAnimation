@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         img_src = findViewById(R.id.img_src);
         img_src1 = findViewById(R.id.img_src1);
         animate_btn = findViewById(R.id.animate_btn);
+
         viewArrayList.add(img_src);
         viewArrayList.add(img_src1);
         viewArrayList.add(hello_txt);
